@@ -25,7 +25,7 @@ export const OptionsCard = ({
 }: OptionsCardProps) => {
   return (
     <div
-      className={`pl-2.5 pt-5 pb-3 min-w-40 max-w-40 md:w-1/4 md:mx-auto md:min-w-80 bg-white border border-gray-100 relative select-none ${className} inline-block`}
+      className={`pl-2.5 pt-5 pb-3 min-w-40 max-w-40 sm:w-1/3 sm:min-w-64  md:w-1/4 md:min-w-80 bg-white border border-gray-100 relative select-none ${className} inline-block`}
     >
       <div className='absolute right-0 top-0 h-10 '>
         <div className='pt-3 pr-2'>

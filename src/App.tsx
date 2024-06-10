@@ -7,6 +7,7 @@ import { TestList } from "./components/TestList";
 import { SectionTitle } from "./components/SectionTitle";
 import { AppointmentList } from "./components/AppointmentList";
 import { UsersList } from "./components/UsersList";
+import { ImageCard } from "./components/ImageCard";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <SectionTitle title='Doctors' ChevronRightButton={{ show: true }} />
           <UsersList />
         </div>
+        <ImageCard />
       </div>
     </div>
   );

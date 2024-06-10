@@ -7,7 +7,7 @@ import { PlusIcon } from "@heroicons/react/20/solid";
 import { CircleButton } from "./CircleButton";
 export const Header = () => {
   return (
-    <div className='w-full bg-white mt-0.5 rounded-tr-3xl rounded-tl-3xl flex'>
+    <div className='w-full bg-white mt-0.5 mb-2 rounded-tr-3xl rounded-tl-3xl flex'>
       <div className='p-5 flex w-full'>
         <img
           src={menuIcon}

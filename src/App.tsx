@@ -6,6 +6,7 @@ import user from "./assets/svgs/persons/user.svg";
 import { TestList } from "./components/TestList";
 import { SectionTitle } from "./components/SectionTitle";
 import { AppointmentList } from "./components/AppointmentList";
+import { UsersList } from "./components/UsersList";
 
 function App() {
   return (
@@ -21,6 +22,14 @@ function App() {
           ChevronRightButton={{ show: true }}
         />
         <AppointmentList />
+        <div>
+          <SectionTitle title='Family' ChevronRightButton={{ show: true }} />
+          <UsersList />
+        </div>
+        <div>
+          <SectionTitle title='Doctors' ChevronRightButton={{ show: true }} />
+          <UsersList />
+        </div>
       </div>
     </div>
   );

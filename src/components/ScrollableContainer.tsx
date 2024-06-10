@@ -42,7 +42,7 @@ const ScrollableContainer = ({ children }: { children: ReactNode }) => {
 
   return (
     <div
-      className='overflow-x-scroll whitespace-nowrap scrollbar-hide p-5'
+      className='overflow-x-scroll whitespace-nowrap scrollbar-hide p-5 pt-2'
       ref={containerRef}
       onMouseDown={handleMouseDown}
       onMouseLeave={handleMouseLeave}

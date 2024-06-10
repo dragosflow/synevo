@@ -4,11 +4,11 @@ import { ChevronRightIcon, PlusIcon } from "@heroicons/react/20/solid";
 
 interface SectionTitleProps {
   title: string;
-  PlusButton: {
+  PlusButton?: {
     show?: boolean;
     onClick?: () => void;
   };
-  ChevronRightButton: {
+  ChevronRightButton?: {
     show?: boolean;
     onClick?: () => void;
   };
@@ -29,10 +29,10 @@ export const SectionTitle = ({
         {PlusButton && (
           <CircleButton
             onClick={() => PlusButton.onClick}
-            icon={<PlusIcon className='w-6 h-6 text-slate-500' />}
+            icon={<PlusIcon className='w-5 h-6 text-slate-500' />}
           />
         )}
-        {ChevronRightButton.show && (
+        {ChevronRightButton && (
           <CircleButton
             onClick={() => ChevronRightButton.onClick}
             className='ml-4'

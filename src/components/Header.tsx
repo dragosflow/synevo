@@ -4,7 +4,7 @@ import logo from "../assets/svgs/logo.svg";
 import logoText from "../assets/svgs/logo-text.svg";
 import headerBell from "../assets/svgs/header-bell.svg";
 import { PlusIcon } from "@heroicons/react/20/solid";
-import { Button } from "./CircleButton";
+import { CircleButton } from "./CircleButton";
 export const Header = () => {
   return (
     <div className='w-full bg-white mt-0.5 rounded-tr-3xl rounded-tl-3xl flex'>
@@ -30,7 +30,7 @@ export const Header = () => {
             className='w-7 h-7 my-auto mt-1'
           />
         </div>
-        <Button
+        <CircleButton
           className='ml-6 bg-white'
           icon={<PlusIcon className='w-8 h-8 text-synevo-blue' />}
         />

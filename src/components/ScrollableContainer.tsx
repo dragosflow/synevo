@@ -1,13 +1,7 @@
 import React, { useState, useRef, ReactNode, MouseEvent } from "react";
 import "../index.css"; // Ensure you have the custom CSS file for hiding the scrollbar
 
-interface ScrollableContainerProps {
-  children: ReactNode;
-}
-
-const ScrollableContainer: React.FC<ScrollableContainerProps> = ({
-  children,
-}) => {
+const ScrollableContainer = ({ children }: { children: ReactNode }) => {
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(0);
   const [scrollLeft, setScrollLeft] = useState(0);

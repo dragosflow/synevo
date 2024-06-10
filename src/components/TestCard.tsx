@@ -36,7 +36,7 @@ const Button = ({
 export const TestCard = ({ title, name, className }: TestCardProps) => {
   return (
     <div
-      className={`bg-white w-54 min-w-64 rounded-xl p-5 mt-3 select-none ${className}`}
+      className={`bg-white min-w-64 rounded-xl p-5 mt-3 select-none ${className}`}
     >
       <h1 className='text-sm font-semibold mb-2'>{title}</h1>
       <p className='text-xs font-semibold text-synevo-blue'> {name}</p>

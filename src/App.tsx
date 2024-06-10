@@ -11,15 +11,17 @@ function App() {
   return (
     <div className='w-full h-full bg-synevo-gray'>
       <Header />
-      <Options />
-      <UserCard name='Elisabeta Aardeleanu' photoSrc={user} />
-      <TestList />
-      <SectionTitle
-        title='Appointments'
-        PlusButton={{ show: true }}
-        ChevronRightButton={{ show: true }}
-      />
-      <AppointmentList />
+      <div className='max-w-4xl md:mx-auto'>
+        <Options />
+        <UserCard name='Elisabeta Aardeleanu' photoSrc={user} />
+        <TestList />
+        <SectionTitle
+          title='Appointments'
+          PlusButton={{ show: true }}
+          ChevronRightButton={{ show: true }}
+        />
+        <AppointmentList />
+      </div>
     </div>
   );
 }

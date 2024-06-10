@@ -5,7 +5,7 @@ interface ButtonProps {
   className?: string;
   icon: React.ReactNode;
 }
-export const Button = ({ onClick, className, icon }: ButtonProps) => {
+export const CircleButton = ({ onClick, className, icon }: ButtonProps) => {
   return (
     <button
       onClick={() => {

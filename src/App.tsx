@@ -4,6 +4,7 @@ import { Options } from "./components/Options";
 import { UserCard } from "./components/UserCard";
 import { TestCard } from "./components/TestCard";
 import user from "./assets/svgs/persons/user.svg";
+import { TestList } from "./components/TestList";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Header />
       <Options />
       <UserCard name='Elisabeta Aardeleanu' photoSrc={user} />
-      <TestCard title='Urine test or longer test name' name='Olivia Wilson' />
+      <TestList />
     </div>
   );
 }

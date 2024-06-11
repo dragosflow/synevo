@@ -8,10 +8,11 @@ import { SectionTitle } from "./components/SectionTitle";
 import { AppointmentList } from "./components/AppointmentList";
 import { UsersList } from "./components/UsersList";
 import { ImageCard } from "./components/ImageCard";
+import FooterMenu from "./components/FooterMenu";
 
 function App() {
   return (
-    <div className='w-full h-full bg-synevo-gray'>
+    <div className='w-full h-full bg-synevo-gray pb-32'>
       <Header />
       <div className='max-w-4xl md:mx-auto'>
         <Options />
@@ -32,6 +33,7 @@ function App() {
           <UsersList />
         </div>
         <ImageCard />
+        <FooterMenu />
       </div>
     </div>
   );
